@@ -12,4 +12,11 @@ name = input("What is your name? ") #Space between ? and " is so that there is a
 print("Hello " + name)
 
 birth_year = input("Enter your birth year: ")
-age = 2021 - birth_year
+age = 2021 - int(birth_year)
+print(age)
+
+#My calculator solution
+first = input("First: ")
+second = input("Second: ")
+sum = int(first) + int(second)
+print(sum)
